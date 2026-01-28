@@ -3,10 +3,15 @@
   font-family: 'Dancing Script', cursive;
 }
 
-
-
-
-
+.fukidashi-date {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 16px;
+  background-color: #f9d3e0;
+  color: #474747;
+  font-size: 12px;
+  margin: 16px 0 6px 0;
+}
 
 
 
