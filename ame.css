@@ -5,11 +5,11 @@
 
 .fukidashi-date {
   display: inline-block;
-  width: 120px;       /* 幅と高さを同じにする */
-  height: 120px;      /* 高さ */
-  line-height: 120px; /* 文字を中央にする */
-  text-align: center;  /* 横中央揃え */
-  border-radius: 50%;  /* これで完全な丸になる */
+  width: 120px;       
+  height: 120px;      
+  line-height: 120px; 
+  text-align: center;  
+  border-radius: 50%;  
   background-color: #f9d3e0;
   color: #474747;
   font-size: 14px;
