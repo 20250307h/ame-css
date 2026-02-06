@@ -4,15 +4,13 @@
 }
 
 .midashi {
-  padding-left: 30px;   /* ← これが最重要 */
-  overflow: visible !important;
+  padding-left: 60px;   /* ← 丸の分の居場所を作る */
 }
 
 .initial {
   position: relative;
   display: inline-block;
   line-height: 1;
-  z-index: 1;
 }
 
 .initial::before {
@@ -22,10 +20,9 @@
   height: 50px;
   background: #f9d3e0;
   border-radius: 50%;
-  left: -15px;          /* 丸は文字より左 */
+  left: -55px;          /* ← 文字の左に配置 */
   top: 50%;
   transform: translateY(-50%);
-  z-index: -1;
 }
 
 
