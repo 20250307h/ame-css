@@ -36,7 +36,9 @@
 /* 05 */
 .next-num {
   font-size: 28px;
-  color: #f9d3e0; /* 画像の色に合わせて */
+  margin-left: -4px;
+}
+</div>  color: #f9d3e0; /* 画像の色に合わせて */
 }
 
 
