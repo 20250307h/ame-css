@@ -21,3 +21,38 @@ h1::before {
   transform: translateY(-50%);
   z-index: -1;
 }
+
+
+/* ===== タイトル（日付） ===== */
+.title-circle {
+  position: relative;
+  font-size: 64px;        /* 0307 の大きさ */
+  font-weight: normal;
+  color: #333;
+  text-shadow: 0 0 2px #ffffff;
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* タイトルの後ろの丸 */
+.title-circle::before {
+  content: "";
+  position: absolute;
+  background: #f9d3e0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 50%;
+  left: -15px;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+/* ===== サブタイトル（筆記体） ===== */
+.script {
+  display: block;
+  margin-top: 6px;
+  font-size: 14px;        /* The year I spent with you. */
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+}
