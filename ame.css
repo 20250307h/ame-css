@@ -4,19 +4,17 @@
 }
 
 .midashi {
-  color: #333;
-  text-shadow: 0 0 2px #fff;
+  overflow: visible !important;
 }
 
-/* 最初の一文字 */
 .initial {
   position: relative;
   display: inline-block;
-  margin-right: 4px; /* 次の文字との間 */
+  overflow: visible !important;
+  line-height: 1;
   z-index: 1;
 }
 
-/* ● */
 .initial::before {
   content: "";
   position: absolute;
@@ -24,11 +22,12 @@
   height: 50px;
   background: #f9d3e0;
   border-radius: 50%;
-  left: 50%;
+  left: 0;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateY(-50%);
   z-index: -1;
 }
+
 
 /* big / small が効くようにする */
 .script {
