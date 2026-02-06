@@ -3,22 +3,22 @@
   font-family: 'Dancing Script', cursive;
 }
 
-h1 {
+.title-circle {
   position: relative;
   color: #333;
-  text-shadow: 0 0 2px white;
+  text-shadow: 0 0 2px #ffffff;
+  padding-left: 32px;   /* ← これを追加 */
 }
-h1:before {
+
+.title-circle::before {
   content: "";
   position: absolute;
-  background: #9de5ff;
+  background: #f9d3e0;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   top: 50%;
-  /* border: dashed 1px white; */
-  left: -15px;
-  -webkit-transform: translateY(-50%);
+  left: 0;              /* ← マイナスをやめる */
   transform: translateY(-50%);
   z-index: -1;
 }
