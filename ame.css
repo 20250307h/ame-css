@@ -7,7 +7,7 @@
   position: relative;
   color: #333;
   text-shadow: 0 0 2px #ffffff;
-  padding-left: 32px;   /* ← これを追加 */
+  text-align: center;
 }
 
 .title-circle::before {
@@ -18,8 +18,8 @@
   height: 50px;
   border-radius: 50%;
   top: 50%;
-  left: 0;              /* ← マイナスをやめる */
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: -1;
 }
 
