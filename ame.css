@@ -5,6 +5,7 @@
 
 .title-circle {
   position: relative;
+  display: inline-block;   /* ← これが超重要 */
   color: #333;
   text-shadow: 0 0 2px #ffffff;
   text-align: center;
