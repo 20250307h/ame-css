@@ -7,7 +7,7 @@
 .date-line {
   display: flex;
   align-items: center; /* 縦位置を揃える */
-  gap: 18px;           /* 02 と 05 の間隔 */
+  gap: 12px;           /* 02 と 05 の間隔 */
 }
 
 /* ●＋02 */
