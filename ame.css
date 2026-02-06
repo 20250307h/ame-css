@@ -22,7 +22,7 @@
   height: 50px;
   background: #f9d3e0;
   border-radius: 50%;
-  left: 0;
+  left: 10;
   top: 50%;
   transform: translateY(-50%);
   z-index: -1;
