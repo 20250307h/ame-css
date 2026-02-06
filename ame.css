@@ -3,36 +3,16 @@
   font-family: 'Dancing Script', cursive;
 }
 
-.fukidashi-date {
-  display: inline-block;
-  padding: 12px 16px;     
-  border-radius: 50px;     
-  background-color: #f9d3e0;
-  color: #474747;
-  font-size: 14px;
-  text-align: center;
-  margin: 16px 0 6px 0;
-}
-
-
-.title {
-  color: #f9d3e0;
-  font-size: 48px;
-  font-family: serif;
-  letter-spacing: 0.15em;
-}
-
-
-.title-circle {
+h1 {
   position: relative;
   color: #333;
   text-shadow: 0 0 2px white;
 }
 
-.title-circle::before {
+h1::before {
   content: "";
   position: absolute;
-  background: #f9d3e0;
+  background: #f9d3e0; /* ← ここを変更 */
   width: 50px;
   height: 50px;
   border-radius: 50%;
