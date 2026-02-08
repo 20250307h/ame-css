@@ -83,8 +83,10 @@ h1:after {
 .balloon::after {
   content: "";
   position: absolute;
-  top: 100%;
-  left: 30px;
-  border: 7px solid transparent !important;
-  border-top: 7px solid #f9d3e0 !important;
+  width: 10px;      /* ← 尻尾の大きさ */
+  height: 10px;     /* ← 尻尾の大きさ */
+  background: #f9d3e0;
+  bottom: -5px;     /* ← 下との距離 */
+  left: 30px;       /* ← 横位置 */
+  transform: rotate(45deg);
 }
