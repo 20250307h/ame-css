@@ -63,9 +63,10 @@ h1 {
   box-sizing: border-box;
 }
 
-.h1-small {
-  font-size: 0.9em;
+h1.h1-small {
+  font-size: 0.9em !important;
 }
+
 
 h1:after {
   position: absolute;
