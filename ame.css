@@ -72,14 +72,21 @@ h1:after {
 
 
 .balloon {
+  position: relative;
+  display: inline-block;
+  padding: 0.6em 1em;
   background: #f9d3e0;
   color: #474747;
-  padding: 0.6em 1em;
   border-radius: 12px;
-  display: inline-block;
-  text-align: center;
 }
-.tail {
-  font-size: 12px;
-  margin-left: 6px;
+
+.balloon::after {
+  content: "";
+  position: absolute;
+  width: 10px;      /* ← 尻尾の大きさ */
+  height: 10px;     /* ← 尻尾の大きさ */
+  background: #f9d3e0;
+  bottom: -5px;     /* ← 下との距離 */
+  left: 30px;       /* ← 横位置 */
+  transform: rotate(45deg);
 }
