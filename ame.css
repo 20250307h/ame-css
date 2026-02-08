@@ -99,12 +99,12 @@ h1:after {
   margin-top: -4px;
 }
 
-
 .hr-diary {
-  border: none;
-  border-top: 1px dashed #ccc;
+  height: 1px;
+  background-color: #ccc;
   margin: 20px 0;
 }
+
 .hr-diary + * {
   text-align: left;
 }
