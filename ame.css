@@ -71,20 +71,42 @@ h1:after {
 }
 
 
+/* 共通：吹き出し本体 */
 .balloon {
   display: inline-block;
   padding: 0.6em 1em;
   background: #f9d3e0;
   color: #474747;
   border-radius: 12px;
-  position: relative;
+  max-width: 80%;
 }
 
-.balloon-tail {
-  width: 8px;      /* 尻尾サイズ */
+/* 左吹き出し */
+.balloon-left {
+  text-align: left;
+}
+
+.balloon-left + .tail-left {
+  width: 8px;
   height: 8px;
   background: #f9d3e0;
   transform: rotate(45deg);
   margin-left: 20px;
   margin-top: -4px;
+}
+
+/* 右吹き出し */
+.balloon-right {
+  text-align: right;
+  margin-left: auto;
+}
+
+.balloon-right + .tail-right {
+  width: 8px;
+  height: 8px;
+  background: #f9d3e0;
+  transform: rotate(45deg);
+  margin-right: 20px;
+  margin-top: -4px;
+  margin-left: auto;
 }
