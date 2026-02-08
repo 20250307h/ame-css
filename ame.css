@@ -100,23 +100,19 @@ h1:after {
 }
 
 .hr1 {
-  border: 0;
-  height: 8px;
   background-image:
     repeating-linear-gradient(
       45deg,
-      #ccc 0,
-      #ccc 1px,
+      #f9d3e0 0,
+      #f9d3e0 1px,
       transparent 1px,
       transparent 50%
     ),
     repeating-linear-gradient(
       135deg,
-      #ccc 0,
-      #ccc 1px,
+      #f9d3e0 0,
+      #f9d3e0 1px,
       transparent 1px,
       transparent 50%
     );
-  background-size: 8px 8px;
-  margin: 20px 0;
 }
