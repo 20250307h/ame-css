@@ -70,6 +70,7 @@ h1:after {
   height: 0;
 }
 
+
 .balloon {
   position: relative;
   display: inline-block;
@@ -84,6 +85,6 @@ h1:after {
   position: absolute;
   top: 100%;
   left: 30px;
-  border: 5px solid transparent;
-  border-top: 5px solid #f9d3e0;
+  border: 7px solid transparent !important;
+  border-top: 7px solid #f9d3e0 !important;
 }
