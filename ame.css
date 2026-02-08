@@ -72,25 +72,19 @@ h1:after {
 
 
 .balloon {
+  display: inline-block;
+  padding: 0.6em 1em;
   background: #f9d3e0;
   color: #474747;
-  text-align: center;   /* 基本は中央 */
+  border-radius: 12px;
+  position: relative;
 }
 
-/* ●（尻尾）だけ調整 */
-.balloon .tail {
-  display: inline-block;
-  font-size: 14px;      /* ●の大きさ */
-  margin-left: -6px;    /* ←右に出したいならマイナスを減らす */
-}
-
-.balloon.left {
-  text-align: left;
-  padding-left: 12px;
-}
-
-
-.balloon.right {
-  text-align: right;
-  padding-right: 12px;
+.balloon-tail {
+  width: 8px;      /* 尻尾サイズ */
+  height: 8px;
+  background: #f9d3e0;
+  transform: rotate(45deg);
+  margin-left: 20px;
+  margin-top: -4px;
 }
