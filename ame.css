@@ -50,7 +50,6 @@
 }
 
 h1 {
-  font-size: 0.9em;
   position: relative;
   padding: 0.6em 1em;
   background: #f9d3e0;
@@ -64,6 +63,9 @@ h1 {
   box-sizing: border-box;
 }
 
+.h1-small {
+  font-size: 0.9em;
+}
 
 h1:after {
   position: absolute;
