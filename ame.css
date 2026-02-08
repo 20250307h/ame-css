@@ -101,29 +101,10 @@ h1:after {
 
 
 .hr-diary {
-  display: block;
-  margin: 20px auto; 
-  border: 0;
-  height: 8px;
-  background-image:
-    repeating-linear-gradient(
-      45deg,
-      #ccc 0,
-      #ccc 1px,
-      transparent 1px,
-      transparent 50%
-    ),
-    repeating-linear-gradient(
-      135deg,
-      #ccc 0,
-      #ccc 1px,
-      transparent 1px,
-      transparent 50%
-    );
-  background-size: 8px 8px;
+  border: none;
+  border-top: 1px dashed #ccc;
   margin: 20px 0;
 }
-
 .hr-diary + * {
   text-align: left;
 }
