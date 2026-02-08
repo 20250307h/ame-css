@@ -84,6 +84,6 @@ h1:after {
   position: absolute;
   top: 100%;
   left: 30px;
-  border: 15px solid transparent;
-  border-top: 15px solid #f9d3e0;
+  border: 10px solid transparent;
+  border-top: 10px solid #f9d3e0;
 }
