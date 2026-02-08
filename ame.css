@@ -48,3 +48,24 @@
   line-height: 1.6;
   letter-spacing: 0.05em;
 }
+
+
+h1 {
+  position: relative;
+  padding: 0.6em 1em;
+  background: #f9d3e0;   /* 吹き出し色 */
+  color: #474747;        /* 文字色 */
+  border-radius: 12px;   /* 四方を丸く */
+  display: inline-block; /* 横幅を文字に合わせる */
+}
+
+h1:after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 30px;
+  border: 15px solid transparent;
+  border-top: 15px solid #f9d3e0; /* 吹き出しと同色 */
+  width: 0;
+  height: 0;
+}
