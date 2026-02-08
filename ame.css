@@ -71,7 +71,7 @@ h1:after {
 }
 
 
-/* 共通：吹き出し本体 */
+
 .balloon {
   display: inline-block;
   padding: 0.6em 1em;
@@ -81,12 +81,13 @@ h1:after {
   max-width: 80%;
 }
 
-/* 左吹き出し */
+/* 左 */
 .balloon-left {
+  margin-right: auto;
   text-align: left;
 }
 
-.balloon-left + .tail-left {
+.tail-left {
   width: 8px;
   height: 8px;
   background: #f9d3e0;
@@ -95,13 +96,13 @@ h1:after {
   margin-top: -4px;
 }
 
-/* 右吹き出し */
+/* 右 */
 .balloon-right {
-  text-align: right;
   margin-left: auto;
+  text-align: right;
 }
 
-.balloon-right + .tail-right {
+.tail-right {
   width: 8px;
   height: 8px;
   background: #f9d3e0;
