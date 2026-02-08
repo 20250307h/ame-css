@@ -72,19 +72,14 @@ h1:after {
 
 
 .balloon {
-  display: inline-block;
-  padding: 0.6em 1em;
   background: #f9d3e0;
   color: #474747;
+  padding: 0.6em 1em;
   border-radius: 12px;
-  position: relative;
+  display: inline-block;
+  text-align: center;
 }
-
-.balloon-tail {
-  width: 8px;      /* 尻尾サイズ */
-  height: 8px;
-  background: #f9d3e0;
-  transform: rotate(45deg);
-  margin-left: 20px;
-  margin-top: -4px;
+.tail {
+  font-size: 12px;
+  margin-left: 6px;
 }
