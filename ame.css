@@ -69,3 +69,21 @@ h1:after {
   width: 0;
   height: 0;
 }
+
+.balloon {
+  position: relative;
+  display: inline-block;
+  padding: 0.6em 1em;
+  background: #f9d3e0;
+  color: #474747;
+  border-radius: 12px;
+}
+
+.balloon::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 30px;
+  border: 15px solid transparent;
+  border-top: 15px solid #f9d3e0;
+}
