@@ -100,8 +100,10 @@ h1:after {
 }
 
 
-.page-frame {
-  border: 30px solid #474747;
-  min-height: 100vh;
+.diary-frame {
+  border: 20px solid #474747;
+  padding: 20px;
+  margin: 20px 0;
   box-sizing: border-box;
+  background: #fff;
 }
