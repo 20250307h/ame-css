@@ -101,9 +101,8 @@ h1:after {
 
 
 .diary-frame {
-  border: 20px solid #474747;
+  background: #f9d3e0;
   padding: 20px;
-  margin: 20px 0;
-  box-sizing: border-box;
-  background: #fff;
+  margin: 20px 10px;
+  border-radius: 12px;
 }
