@@ -100,8 +100,8 @@ h1:after {
 }
 
 
-<style>
-body {
+.page-frame {
   border: 30px solid #474747;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
-</style>
